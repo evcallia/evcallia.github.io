@@ -13,5 +13,24 @@ $(document).ready(function() {
         }
     });
 
+    // modal pop up
+    $('.description').click(function(){
+        var popUp = $($(this).parent()[0]).find('.project-details')[0];
+        var modal = $('.modal-content')[0];
+        $(modal).html($(popUp).html());
+        $('.modal')[0].style.display = "block";
+    });
 
+    // modal hide
+    window.onclick = function(event) {
+        var modal = $('.modal')[0];
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+
+    // allow clicking on icons to activate links
+    $('.contact-link').click(function(){
+        $(this).find('a')[0].click();
+    });
 });
