@@ -126,7 +126,7 @@ a.find-out:hover{
     padding-top: 3em;
 }
 
-.project-img{
+.project-img, .project video{
     width: 100%;
     height: 19em;
 }
@@ -155,7 +155,7 @@ a.find-out:hover{
     display: none;
 }
 
-.project:hover .description{
+.project:hover .description, .project video:hover{
     display: block;
     cursor: pointer;
 }
@@ -194,6 +194,11 @@ a.find-out:hover{
 
 .modal-content h3 {
     text-align: center;
+}
+
+.modal-content video {
+    width: 100%;
+    height: auto;
 }
 
 @-webkit-keyframes animatetop {

@@ -14,7 +14,7 @@ $(document).ready(function() {
     });
 
     // modal pop up
-    $('.description').click(function(){
+    $('.description, .project video').click(function(){
         var popUp = $($(this).parent()[0]).find('.project-details')[0];
         var modal = $('.modal-content')[0];
         $(modal).html($(popUp).html());
