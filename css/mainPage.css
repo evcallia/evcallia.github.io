@@ -5,17 +5,17 @@ body, html {
 
 .parallax1{
     background-image: url("../images/seattleSkyline.jpg");
-    height: 100%; 
+    height: 100%;
 }
 
 .parallax2{
     background-image: url("../images/huskyStadium.jpg");
-    height: 50%; 
+    height: 50%;
 }
 
 .parallax3{
     background-image: url("../images/atomEditor.png");
-    height: 40%; 
+    height: 40%;
 }
 
 .parallax {
@@ -128,6 +128,7 @@ a.find-out:hover{
 
 .project-img{
     width: 100%;
+    height: 17em;
 }
 
 .no-gutter{
@@ -160,17 +161,17 @@ a.find-out:hover{
 }
 
 .modal{
-    display: none; 
-    position: fixed; 
-    z-index: 1; 
-    padding-top: 100px; 
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
     left: 0;
     top: 0;
-    width: 100%; 
-    height: 100%; 
-    overflow: auto; 
-    background-color: rgb(0,0,0); 
-    background-color: rgba(0,0,0,0.4); 
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
 }
 
 .modal-content{
@@ -194,7 +195,7 @@ a.find-out:hover{
 }
 
 @-webkit-keyframes animatetop {
-    from {top:-300px; opacity:0} 
+    from {top:-300px; opacity:0}
     to {top:0; opacity:1}
 }
 
