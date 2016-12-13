@@ -216,7 +216,7 @@ a.find-out:hover{
 
 
 #contact{
-    background-color: gray;
+    background-color: #2a2a2a;
     padding: 3em;
 }
 
@@ -229,16 +229,10 @@ a.find-out:hover{
     height: 10em;
 }
 
-#contact a:hover{
-    color: black;
-    text-decoration: none;
-}
-
-#contact a{
-    color: #333333;
+#contact *{
+    color: white;
 }
 
 .contact-link > img:hover{
     cursor: pointer;
-    color: black;
 }
