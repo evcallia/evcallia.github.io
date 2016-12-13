@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='UTF-8'>
+        <title>Evan Callia | Portfolio</title>
+        <link rel="stylesheet" href="css/mainPage.css" />
+        <script src="js/jquery/dist/jquery.js" charset="utf-8"></script>
+        <link rel="stylesheet" href="css/bootstrap/dist/css/bootstrap.css">
+    </head>
+    <body id='page-top'>
+        <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                    </button>
+                    <a class="navbar-brand" href="#page-top">Evan Callia</a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#about">About</a>
+                        </li>
+                        <li>
+                            <a href="#skills">Skills</a>
+                        </li>
+                        <li>
+                            <a href="#projects">Projects</a>
+                        </li>
+                        <li>
+                            <a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+
+        <div class="parallax parallax1">
+            <div class="caption">
+                <span class="block"><p class="bkg-gray h1">WELCOME TO MY PORTFOLIO</p></span>
+                <span class="block"><p class="bkg-gray h2">I am a 22 year old full stack web developer seeking a full time position</p></span>
+                <a href='#about' class='btn find-out'>Find Out More</a>
+            </div>
+        </div>
+
+        <div id="about">
+            <div class="container">
+                <p class='center-text'>I attended the University of Washington Seattle and graduated with a degree in Geographic Information Systems. From there I decided to follow my passion and become a web developer.</p>
+                <hr>
+                <p class='center-text faded-gray'>I've since attended the Coding Dojo and learned four full stacks. I am currently a teaching assistant at the Coding Dojo helping students with C#.</p>
+            </div>
+        </div>
+
+        <div class="parallax parallax2"></div>
+
+        <div id="skills">
+            <div class="container center-text">
+                <h2>Technical Skills</h2>
+                <hr class='sm-line'>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6 center-text skill-box">
+                        <img class='logo' src="images/pythonLogo.png" alt="Python Logo">
+                        <h2>Python</h2>
+                        <p class='faded-dark-gray'>Python</p>
+                        <p class='faded-dark-gray'>Django</p>
+                        <p class='faded-dark-gray'>Flask</p>
+                        <p class='faded-dark-gray'>AWS</p>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 center-text skill-box">
+                        <img class='logo' src="images/appleLogo.png" alt="Apple Logo">
+                        <h2>iOS</h2>
+                        <p class='faded-dark-gray'>Swift 3</p>
+                        <p class='faded-dark-gray'>Xcode</p>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 center-text skill-box">
+                        <img class='logo' src="images/javascriptLogo.png" alt="JavaScript Logo">
+                        <h2>MEAN</h2>
+                        <p class='faded-dark-gray'>JavaScript</p>
+                        <p class='faded-dark-gray'>MongoDB</p>
+                        <p class='faded-dark-gray'>Express</p>
+                        <p class='faded-dark-gray'>Angular JS</p>
+                        <p class='faded-dark-gray'>Node JS</p>
+                        <p class='faded-dark-gray'>React</p>
+                        <p class='faded-dark-gray'></p>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 center-text skill-box">
+                        <img class='logo' src="images/cSharpLogo.png" alt="C# Logo">
+                        <h2>C#</h2>
+                        <p class='faded-dark-gray'>C#</p>
+                        <p class='faded-dark-gray'>ASP.NET</p>
+                        <p class='faded-dark-gray'>Dapper</p>
+                        <p class='faded-dark-gray'>Entity</p>
+                        <p class='faded-dark-gray'>MySQL</p>
+                        <p class='faded-dark-gray'>Azure</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="parallax parallax3"></div>
+
+        <div id="projects">
+            <div class="container center-text">
+                <h2>Projects</h2>
+                <hr class='sm-line'>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-sm-6 no-gutter project">
+                    <div class="description center-text">
+                        <h3>C#</h3>
+                        <h5 class='faded-gray'>An application where users can use their voice to post messages and comments to others</h5>
+                    </div>
+                    <div class='project-details'>
+                        <h3>Voice Activated Message Wall</h3>
+                        <p>This is an application where users can use their voice to post messages and comments to others. The project contains a login and registration page. Once logged in users can choose to post a message on the wall, or comment on someone else's message.</p>
+                        <p>This application also allows users to post messages or comments by voice. It utilizes the Microsoft cognitive services API called LUIS (Language Understanding Intelligent Service). Once a user speaks into the mic, ajax is used to make a request to LUIS and analyze the users intent.</p>
+                        <p>Github: <a target='_blank' href="https://github.com/evcallia/microsoft_LUIS_voiceManipulation_project">https://github.com/evcallia/potluck</a></p>
+                        <h5>Skills Used:</h5>
+                        <ul>
+                            <li>C#</li>
+                            <li>ASP.NET</li>
+                            <li>Dapper</li>
+                            <li>Microsoft Cognitive Services - LUIS</li>
+                            <li>JavaScript/Ajax</li>
+                            <li>Git</li>
+                        </ul>
+                    </div>
+                    <img class='project-img' src="images/cSharpWallScreenshot.png" alt="Python Project">
+                </div>
+                <div class="col-lg-4 col-sm-6 no-gutter project">
+                    <div class="description center-text">
+                        <h3>Python</h3>
+                        <h5 class="faded-gray">An application where users can share their favorite recipes</h5>
+                    </div>
+                    <div class='project-details'>
+                        <h3>PotLuck</h3>
+                        <p>This is an application where users can share their favorite recipes. It features a fully functional login and registration page along with the ability post and delete your own recipes. Each recipe has the option to upload a photo of the food and add steps to the recipe. Steps can be updated at any time and is implimented with ajax so it saves as you go.</p>
+                        <p>Github: <a target='_blank' href="https://github.com/evcallia/potluck">https://github.com/evcallia/potluck</a></p>
+                        <h5>Skills Used:</h5>
+                        <ul>
+                            <li>Python</li>
+                            <li>Django</li>
+                            <li>JavaScript/Ajax</li>
+                            <li>Git</li>
+                        </ul>
+                    </div>
+                    <img class='project-img' src="images/potLuckScreenshot.png" alt="Python Project">
+                </div>
+
+                <!-- <div class="col-lg-4 col-sm-6 no-gutter project">
+                    <img class='project-img' src="images/potLuckScreenshot.png" alt="Python Project">
+                </div> -->
+            </div>
+        </div>
+        <div class="modal">
+            <div class="modal-content center-text">
+                <!-- modal content will be replaced here -->
+            </div>
+        </div>
+
+        <div id="contact">
+            <div class="container center-text">
+                <h2>Lets Get In Touch</h2>
+                <hr class='sm-line'>
+            </div>
+            <div class="container center-text">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 center-text contact-box">
+                        <img class='logo-sm' src="images/phoneLogo.png" alt="Phone Logo">
+                        <h5>206-714-0563</h5>
+                    </div>
+                    <div class="col-md-3 col-sm-6 center-text contact-box contact-link">
+                        <img class='logo-sm' src="images/emailLogo.png" alt="Email Logo">
+                        <h5><a href="mailto:calliaevan12@gmail.com">calliaevan12@gmail.com</a></h5>
+                    </div>
+                    <div class="col-md-3 col-sm-6 center-text contact-box contact-link" link='https://github.com/evcallia'>
+                        <img class='logo-sm' src="images/githubLogo.png" alt="Github Logo">
+                         <h5><a target="_blank" href="https://github.com/evcallia">https://github.com/evcallia</a></h5>
+                    </div>
+                    <div class="col-md-3 col-sm-6 center-text contact-box contact-link" link=''>
+                        <img class='logo-sm' src="images/linkedInLogo.png" alt="Linked In Logo">
+                        <h5><a target="_blank" href="https://www.linkedin.com/in/evancallia">https://www.linkedin.com/in/evancallia</a></h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            $('.description').click(function(){
+                var popUp = $($(this).parent()[0]).find('.project-details')[0];
+                var modal = $('.modal-content')[0];
+                $(modal).html($(popUp).html());
+                $('.modal')[0].style.display = "block";
+            });
+
+            window.onclick = function(event) {
+                var modal = $('.modal')[0];
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            }
+
+            $('.contact-link').click(function(){
+                $(this).find('a')[0].click();
+            });
+        </script>
+    </body>
+</html>
