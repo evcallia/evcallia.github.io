@@ -160,6 +160,10 @@ a.find-out:hover{
     cursor: pointer;
 }
 
+.project video{
+    display: block;
+}
+
 .modal{
     display: none;
     position: fixed;
